@@ -9,7 +9,7 @@ This is a Vue Project that implements the `keycloak-js` libary.
    c. Access settings<br>
      Valid redirect URIs<br>
      I. http://127.0.0.1:5173/*<br>
-     <p>II. http://localhost:5173/*<br></p>
+     II. http://localhost:5173/*<br>
      Web origins<br>
      I. http://127.0.0.1:5173<br>
      II. http://localhost:5173<br>
