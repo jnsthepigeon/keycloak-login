@@ -8,8 +8,8 @@ This is a Vue Project that implements the `keycloak-js` libary.
    b. Standard flow and Direct access (check)<br>
    c. Access settings<br>
      Valid redirect URIs<br>
-     I. http://127.0.0.1:5173/*\<br>
-     II. http://localhost:5173/*\<br>
+     I. http://127.0.0.1:5173/&ast;<br>
+     II. http://localhost:5173/&ast;<br>
      Web origins<br>
      I. http://127.0.0.1:5173<br>
      II. http://localhost:5173<br>
