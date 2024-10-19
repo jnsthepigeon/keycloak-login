@@ -1,29 +1,16 @@
 # keycloak-login
+This is a Vue Project that implements the `keycloak-js` libary.
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Setting up keycloak
+1. Create a new realm (in our case 'test')
+2. Create a new client (client id 'vue-app')
+   a. Client authentication (off 'public')
+   b. Standard flow and Direct access (check)
+   c. Access settings
+     Valid redirect URIs
+     I. http://127.0.0.1:5173/*
+     II. http://localhost:5173/*
+     Web origins
+     I. http://127.0.0.1:5173
+     II. http://localhost:5173
+3. Create a user
